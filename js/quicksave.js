@@ -13,7 +13,7 @@ $(window).load(function(){
     function setposition() {
         position = $.cookie('position');
         $(document).scrollTop(position);
-        $.removeCookie('test');
+        $.removeCookie('position');
     }
     setTimeout(setposition, 50);
 });
