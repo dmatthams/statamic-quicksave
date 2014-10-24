@@ -1,4 +1,4 @@
-Statamic Quicksave
+Statamic quicksave
 ==================
 
 Enables quick ctrl/cmd + S saving in Statamic with scroll position preserved.
