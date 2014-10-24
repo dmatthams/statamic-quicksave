@@ -1,4 +1,8 @@
 Statamic Quicksave
 ==================
 
-Just plonk this in your _add-ons folder to enable quick ctrl/cmd + s saving in Statamic. It will even scroll back to the correct position!
+Enables quick ctrl/cmd + S saving in Statamic with scroll position preserved.
+
+Just pop it into your _add-ons making sure to rename the folder to 'quicksave'.
+
+
