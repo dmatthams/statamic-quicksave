@@ -11,8 +11,7 @@ $(window).keydown(function(event) {
 
 $(window).load(function(){
     function setposition() {
-        position = $.cookie('position');
-        $(document).scrollTop(position);
+        $(document).scrollTop($.cookie('position'));
         $.removeCookie('position');
     }
     setTimeout(setposition, 50);
